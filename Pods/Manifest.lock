@@ -1,0 +1,270 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - AXIndicatorView (0.1.1)
+  - AXNavigationBackItemInjection (0.0.2)
+  - AXPracticalHUD (2.1.4):
+    - AXIndicatorView
+  - AXWebViewController (0.7.2):
+    - Aspects
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - NJKWebViewProgress
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BRPickerView (2.7.3):
+    - BRPickerView/AddressPickerView (= 2.7.3)
+    - BRPickerView/Base (= 2.7.3)
+    - BRPickerView/DatePickerView (= 2.7.3)
+    - BRPickerView/StringPickerView (= 2.7.3)
+  - BRPickerView/AddressPickerView (2.7.3):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.7.3)
+  - BRPickerView/DatePickerView (2.7.3):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.7.3):
+    - BRPickerView/Base
+  - CocoaLumberjack (3.7.2):
+    - CocoaLumberjack/Core (= 3.7.2)
+  - CocoaLumberjack/Core (3.7.2)
+  - DACircularProgress (2.3.1)
+  - DTCoreText (1.6.26):
+    - DTCoreText/Core (= 1.6.26)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.26):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.18)
+  - DTFoundation/DTAnimatedGIF (1.7.18)
+  - DTFoundation/DTHTMLParser (1.7.18):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.18):
+    - DTFoundation/Core
+  - FLAnimatedImage (1.0.16)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HXPhotoPicker (3.2.4):
+    - HXPhotoPicker/Default (= 3.2.4)
+  - HXPhotoPicker/Default (3.2.4)
+  - IQKeyboardManager (4.0.13)
+  - JPVideoPlayer (3.1.1)
+  - JSONModel (1.8.0)
+  - JXCategoryView (1.5.9)
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - lottie-ios (2.1.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MFSCache (2.0.1):
+    - MFSJSONEntity
+  - MFSIdentifier (1.0.2):
+    - MFSCache
+  - MFSJSONEntity (1.0.6)
+  - MJExtension (3.3.0)
+  - MJRefresh (3.7.2)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - OpenUDID (1.0.0)
+  - RongCloudIM/IMKit (2.9.25):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.9.25)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - SocketRocket (0.6.0)
+  - SuperPlayer (3.4.4):
+    - AFNetworking
+    - Masonry
+    - SDWebImage
+    - SuperPlayer/Player (= 3.4.4)
+  - SuperPlayer/Player (3.4.4):
+    - AFNetworking
+    - Masonry
+    - SDWebImage
+    - TXLiteAVSDK_Player
+  - SVProgressHUD (2.2.5)
+  - TXLiteAVSDK_Player (9.0.10433)
+  - YCPopover (1.2.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZFPlayer (4.0.3):
+    - ZFPlayer/Core (= 4.0.3)
+  - ZFPlayer/ControlView (4.0.3):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.0.3)
+  - ZXingObjC/Core (3.6.5)
+  - ZXingObjC/QRCode (3.6.5):
+    - ZXingObjC/Core
+
+DEPENDENCIES:
+  - AFNetworking
+  - AXWebViewController
+  - BlocksKit
+  - BRPickerView
+  - CocoaLumberjack
+  - DTCoreText
+  - FLAnimatedImage
+  - FMDB
+  - HXPhotoPicker
+  - IQKeyboardManager (~> 4.0.8)
+  - JPVideoPlayer
+  - JSONModel
+  - JXCategoryView
+  - libwebp
+  - lottie-ios (~> 2.1.0)
+  - Masonry
+  - MBProgressHUD
+  - MFSIdentifier
+  - MJExtension
+  - MJRefresh
+  - MWPhotoBrowser
+  - OpenUDID (~> 1.0)
+  - RongCloudIM/IMKit (~> 2.9.7)
+  - RongCloudIM/IMLib (~> 2.9.7)
+  - SocketRocket
+  - SuperPlayer
+  - SVProgressHUD
+  - YCPopover
+  - YYKit
+  - ZFPlayer (~> 4.0)
+  - ZFPlayer/ControlView (~> 4.0)
+  - ZXingObjC/QRCode
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Aspects
+    - AXIndicatorView
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - AXWebViewController
+    - BlocksKit
+    - BRPickerView
+    - CocoaLumberjack
+    - DACircularProgress
+    - DTCoreText
+    - DTFoundation
+    - FLAnimatedImage
+    - FMDB
+    - HXPhotoPicker
+    - IQKeyboardManager
+    - JPVideoPlayer
+    - JSONModel
+    - JXCategoryView
+    - libwebp
+    - lottie-ios
+    - Masonry
+    - MBProgressHUD
+    - MFSCache
+    - MFSIdentifier
+    - MFSJSONEntity
+    - MJExtension
+    - MJRefresh
+    - MWPhotoBrowser
+    - NJKWebViewProgress
+    - OpenUDID
+    - RongCloudIM
+    - SDWebImage
+    - SocketRocket
+    - SuperPlayer
+    - SVProgressHUD
+    - TXLiteAVSDK_Player
+    - YCPopover
+    - YYKit
+    - ZFPlayer
+    - ZXingObjC
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AXIndicatorView: 566b490a2dd9781d4ffbcc9752be9b9cdc6e728e
+  AXNavigationBackItemInjection: efe0446967f3cbcc85a9118decd1e145138912dd
+  AXPracticalHUD: 821d170b31e050c426ef8754b07b4264a8b1d861
+  AXWebViewController: 96566c473fce2806f4da696132b31777f5404c9f
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  BRPickerView: 9cc11880ac79c4872d081ccb88f306224c1501d7
+  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DTCoreText: ec749e013f2e1f76de5e7c7634642e600a7467ce
+  DTFoundation: a53f8cda2489208cbc71c648be177f902ee17536
+  FLAnimatedImage: 8f3e854ebf9680b71f0b6e700939687fc4d82b4b
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HXPhotoPicker: a0af1fa2e12a252cd05f534bed5cf0a3f42f0786
+  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  JPVideoPlayer: 234c2fc5c9dfd67b969a5dd8233815eb872472c6
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  JXCategoryView: 2ef9ecfd3735158d009ce02d1f29811aa822da65
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  lottie-ios: 836cdbba92f62f3c6a00e37a4ce485321fe317cf
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MFSCache: 76baaca48f2283669709771967caedb8d0edb4c7
+  MFSIdentifier: abc345c0ae150e00856f3e3bcedcafb257e26c4b
+  MFSJSONEntity: 87c9404c87cb499de26b061f3c985eb7808bef73
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  RongCloudIM: cd6836aa86fbf6c02f7b6b5c895ea4caa894d67f
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+  SuperPlayer: 925d76fa7b67288a9eab76aa6a85c806d0532bab
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TXLiteAVSDK_Player: 9f741380f2e757d0066d4abfde69ee0d494ba91b
+  YCPopover: a11e06b685e9cddaa10e8f1bb3c1ba5bb52d719e
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
+  ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
+
+PODFILE CHECKSUM: 823b3d5e36a592adbe6b89578253cc377f6f7f44
+
+COCOAPODS: 1.10.2

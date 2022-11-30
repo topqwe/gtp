@@ -1,0 +1,6 @@
+framework module YCPopover {
+  umbrella header "YCPopover-umbrella.h"
+
+  export *
+  module * { export * }
+}
