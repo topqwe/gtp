@@ -200,10 +200,9 @@
         }else if (model.subType == HXPhotoModelMediaSubTypePhoto){
             UIImage* image = model.previewPhoto;
             [self.photoModels addObjectVerify:image];
-            
-            [self handleRs:@"image" withArr:self.photoModels];
         }
     }
+    [self handleRs:@"image" withArr:self.photoModels];
 }
 - (void)handleRs:(NSString*)mineType withArr:(NSArray*)originArr{
     [SVProgressHUD showWithStatus:@"正在上传发布中..."];
